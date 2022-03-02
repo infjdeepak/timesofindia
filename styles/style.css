@@ -53,23 +53,24 @@ nav a {
   background: #1a1a1a;
   border-bottom: 2px solid #333;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
+  padding: 0.6rem 5%;
 }
 .links-right,
 .links-left {
   display: flex;
 }
 .links-left {
-  flex: 2 1 30rem;
+  flex: 2 1 20rem;
 }
 .links-left a {
   padding: 0.1px 1rem;
   border-right: 1px solid #ffffff;
 }
 .links-right {
-  flex: 1 1 30rem;
+  flex: 1 1 10rem;
   justify-content: end;
   align-items: center;
 }
@@ -96,6 +97,8 @@ nav a {
 .bottomarea-nav-links {
   background: #be2819;
   display: flex;
+  flex-wrap:wrap;
+
   align-items: center;
   padding: 0 5%;
 }
@@ -289,15 +292,12 @@ footer h5 {
   .centerarea-logo a {
     font-size: 3rem;
   }
-  .bottomarea-nav-links,
-  .toparea-nav-links {
-    flex-wrap: wrap;
-  }
+
   .bottomarea-nav-links li,
   .bottomarea-nav-links a,
   .toparea-nav-links li,
   .toparea-nav-links a {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 
