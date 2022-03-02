@@ -305,8 +305,8 @@ footer h5 {
   html {
     font-size: 45%;
   }
-  .toparea-nav-links .links-right{
-    display: hidden;
+  .toparea-nav-links{
+    display: none;
     }
   .most-popular-button {
     flex-wrap: wrap;
