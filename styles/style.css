@@ -305,7 +305,7 @@ footer h5 {
   html {
     font-size: 45%;
   }
-  .toparea-nav-links{
+  .toparea-nav-links .links-right{
     display: hidden;
     }
   .most-popular-button {
